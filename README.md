@@ -2,7 +2,7 @@
 
 ## Latest experiment
 
-In a fresh autoregressive trigram study with 768 simulation worlds, selective archive reuse lowered mean sequence KL 10.2% versus tuned diffuse Bayesian resets. The rare-prefix primary test was inconclusive. A prespecified whole-archive ablation exposed a 37.0% excess KL penalty for indiscriminate reuse on mismatch cases.
+In a fresh autoregressive trigram study with 768 simulation worlds, selective archive reuse lowered mean sequence KL 10.2% versus tuned diffuse Bayesian resets. The rare-prefix primary test was inconclusive. Compared with whole-archive recall, selective reuse reduced rare-prefix excess KL by 37.0% on the mismatch cases.
 
 [Read the report and replay the experiment](Selective%20archive%20reuse/README.md)
 
