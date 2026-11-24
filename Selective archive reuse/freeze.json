@@ -1,0 +1,210 @@
+{
+  "best_reference": "diffuse_reset",
+  "dev_seeds": [
+    224701,
+    224737,
+    224771,
+    224809,
+    224863,
+    224879
+  ],
+  "scores": {
+    "cumulative": [
+      {
+        "config": {},
+        "score": 0.30923893181471745
+      }
+    ],
+    "diffuse_reset": [
+      {
+        "config": {
+          "hazard": 0.04
+        },
+        "score": 0.18576023652851112
+      },
+      {
+        "config": {
+          "hazard": 0.1
+        },
+        "score": 0.18573955623806282
+      }
+    ],
+    "discount": [
+      {
+        "config": {
+          "decay": 0.6
+        },
+        "score": 0.20202234459265844
+      },
+      {
+        "config": {
+          "decay": 0.82
+        },
+        "score": 0.21699624921370617
+      },
+      {
+        "config": {
+          "decay": 0.94
+        },
+        "score": 0.2624415651207024
+      }
+    ],
+    "global_retrieval": [
+      {
+        "config": {
+          "window": 4
+        },
+        "score": 0.27232746192726426
+      },
+      {
+        "config": {
+          "window": 10
+        },
+        "score": 0.26989749289308634
+      }
+    ],
+    "prefix_gated_reset": [
+      {
+        "config": {
+          "hazard": 0.04,
+          "trust": 0.55
+        },
+        "score": 0.17764307818176645
+      },
+      {
+        "config": {
+          "hazard": 0.04,
+          "trust": 0.85
+        },
+        "score": 0.18691836028337488
+      },
+      {
+        "config": {
+          "hazard": 0.1,
+          "trust": 0.55
+        },
+        "score": 0.17750129197936176
+      },
+      {
+        "config": {
+          "hazard": 0.1,
+          "trust": 0.85
+        },
+        "score": 0.18648425834095228
+      }
+    ],
+    "prefix_retrieval": [
+      {
+        "config": {
+          "window": 4
+        },
+        "score": 0.2067631037621359
+      },
+      {
+        "config": {
+          "window": 10
+        },
+        "score": 0.2550592878056089
+      }
+    ],
+    "rolling": [
+      {
+        "config": {
+          "window": 3
+        },
+        "score": 0.22135321179333417
+      },
+      {
+        "config": {
+          "window": 8
+        },
+        "score": 0.2479167712446088
+      },
+      {
+        "config": {
+          "window": 14
+        },
+        "score": 0.2882830413352605
+      }
+    ],
+    "whole_archive_reset": [
+      {
+        "config": {
+          "hazard": 0.04
+        },
+        "score": 0.2522400798985713
+      },
+      {
+        "config": {
+          "hazard": 0.1
+        },
+        "score": 0.25115925185342425
+      }
+    ]
+  },
+  "selected": {
+    "cumulative": {
+      "config": {},
+      "score": 0.30923893181471745
+    },
+    "diffuse_reset": {
+      "config": {
+        "hazard": 0.1
+      },
+      "score": 0.18573955623806282
+    },
+    "discount": {
+      "config": {
+        "decay": 0.6
+      },
+      "score": 0.20202234459265844
+    },
+    "global_retrieval": {
+      "config": {
+        "window": 10
+      },
+      "score": 0.26989749289308634
+    },
+    "prefix_gated_reset": {
+      "config": {
+        "hazard": 0.1,
+        "trust": 0.55
+      },
+      "score": 0.17750129197936176
+    },
+    "prefix_retrieval": {
+      "config": {
+        "window": 4
+      },
+      "score": 0.2067631037621359
+    },
+    "rolling": {
+      "config": {
+        "window": 3
+      },
+      "score": 0.22135321179333417
+    },
+    "whole_archive_reset": {
+      "config": {
+        "hazard": 0.1
+      },
+      "score": 0.25115925185342425
+    }
+  },
+  "source_sha256": {
+    "PROTOCOL.md": "5b1c810f5af0e10ef8c8448dc1375b6dd084a44b14eee3bace892385337ed4f9",
+    "run.py": "8a3c55901f697692ffc614f4efcdf512ee22aa000600d23183694c423270366b"
+  },
+  "test_seeds": [
+    716047,
+    716071,
+    716101,
+    716117,
+    716243,
+    716269
+  ],
+  "worlds_per_family": [
+    48,
+    128
+  ]
+}
