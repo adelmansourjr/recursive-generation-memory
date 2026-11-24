@@ -1,0 +1,2934 @@
+{
+  "worlds_per_regime": 256,
+  "rounds": 24,
+  "real_budget_per_round": 64,
+  "synthetic_budget_per_round": 384,
+  "stationary": {
+    "last_four_rounds": {
+      "anchor": {
+        "rare_kl": 0.22040124505726447,
+        "population_kl": 0.029878766252052946,
+        "underproduced_mass": 0.18714681648582163,
+        "shifted_kl": 0.10105064682824415,
+        "rare_real_count": 0.0
+      },
+      "synthetic_only": {
+        "rare_kl": 0.8905953898838205,
+        "population_kl": 1.096774740382571,
+        "underproduced_mass": 0.607646607370321,
+        "shifted_kl": 1.02904151425624,
+        "rare_real_count": 0.0
+      },
+      "random_recursive": {
+        "rare_kl": 0.7165614895002138,
+        "population_kl": 0.3149940132501014,
+        "underproduced_mass": 0.5257882148651386,
+        "shifted_kl": 0.44426628076464453,
+        "rare_real_count": 3.0517578125
+      },
+      "balanced_recursive": {
+        "rare_kl": 0.3936143178933282,
+        "population_kl": 0.37438281971843734,
+        "underproduced_mass": 0.3158906173892388,
+        "shifted_kl": 0.3837755846554392,
+        "rare_real_count": 21.3720703125
+      },
+      "tail_recursive": {
+        "rare_kl": 0.29454960204688174,
+        "population_kl": 0.4975825788610759,
+        "underproduced_mass": 0.2438381867527209,
+        "shifted_kl": 0.4410451332835311,
+        "rare_real_count": 38.0
+      },
+      "tail_real_only": {
+        "rare_kl": 0.3171656485335087,
+        "population_kl": 0.44262643597401713,
+        "underproduced_mass": 0.2694121261542181,
+        "shifted_kl": 0.4043085684930011,
+        "rare_real_count": 38.0
+      },
+      "tail_rolling_real": {
+        "rare_kl": 0.1266613342642864,
+        "population_kl": 0.262294999468767,
+        "underproduced_mass": 0.10331882041962961,
+        "shifted_kl": 0.2213314944532455,
+        "rare_real_count": 38.0
+      },
+      "balanced_cumulative_real": {
+        "rare_kl": 0.03769376995681609,
+        "population_kl": 0.0160400282109938,
+        "underproduced_mass": 0.022739331054648676,
+        "shifted_kl": 0.02327658250647574,
+        "rare_real_count": 21.3720703125
+      }
+    },
+    "rare_nll_improvement_against": {
+      "anchor": [
+        -0.07414835698961718,
+        -0.08483037013779021,
+        -0.06288405873754481
+      ],
+      "synthetic_only": [
+        0.5960457878369387,
+        0.5772306839506135,
+        0.6144127563742819
+      ],
+      "random_recursive": [
+        0.4220118874533325,
+        0.4081028747901295,
+        0.4370366217977946
+      ],
+      "balanced_recursive": [
+        0.09906471584644681,
+        0.09180346727558324,
+        0.10640872706126268
+      ],
+      "tail_real_only": [
+        0.022616046486627094,
+        0.01865470654092856,
+        0.026720911534583423
+      ],
+      "tail_rolling_real": [
+        -0.1678882677825951,
+        -0.1726985127990733,
+        -0.16294798418086381
+      ],
+      "balanced_cumulative_real": [
+        -0.2568558320900655,
+        -0.2617026048383239,
+        -0.25168242542076413
+      ]
+    },
+    "population_nll_degradation_vs_balanced": [
+      0.12319975914263911,
+      0.11369281553969823,
+      0.13276609793735303
+    ],
+    "curves": {
+      "anchor": [
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.22040124505726447,
+          "population_kl": 0.029878766252052946,
+          "underproduced_mass": 0.18714681648582163,
+          "shifted_kl": 0.10105064682824415,
+          "rare_real_count": 0.0
+        }
+      ],
+      "synthetic_only": [
+        {
+          "rare_kl": 0.46895153532730344,
+          "population_kl": 0.1444598884732885,
+          "underproduced_mass": 0.4039008853932594,
+          "shifted_kl": 0.25304770565972085,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.640447711887063,
+          "population_kl": 0.24240273112537272,
+          "underproduced_mass": 0.4998070887791097,
+          "shifted_kl": 0.3655651471355821,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.7311643510144277,
+          "population_kl": 0.32850870952853073,
+          "underproduced_mass": 0.5400006516766966,
+          "shifted_kl": 0.4565999876684302,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.7965790900136536,
+          "population_kl": 0.4105447355633373,
+          "underproduced_mass": 0.5693976509890856,
+          "shifted_kl": 0.5332459269749259,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8260134962576039,
+          "population_kl": 0.47934868214532483,
+          "underproduced_mass": 0.5894172836105602,
+          "shifted_kl": 0.5856107250078033,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8505385688954752,
+          "population_kl": 0.5413743733223753,
+          "underproduced_mass": 0.5978391477789882,
+          "shifted_kl": 0.634285623531616,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8567127915501648,
+          "population_kl": 0.6075713937547834,
+          "underproduced_mass": 0.5987502490434343,
+          "shifted_kl": 0.6877371631801298,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8580194167143665,
+          "population_kl": 0.6587393341260313,
+          "underproduced_mass": 0.5976201851964076,
+          "shifted_kl": 0.7214581285561994,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8585578426252237,
+          "population_kl": 0.705829452355097,
+          "underproduced_mass": 0.5961027608659076,
+          "shifted_kl": 0.7666926621111574,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8623464747069235,
+          "population_kl": 0.7565245417300726,
+          "underproduced_mass": 0.6011608417285597,
+          "shifted_kl": 0.7996827325453805,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.865984854169992,
+          "population_kl": 0.8011174778747495,
+          "underproduced_mass": 0.6045616005069894,
+          "shifted_kl": 0.8236463479806192,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.89021518653778,
+          "population_kl": 0.8432572739270123,
+          "underproduced_mass": 0.6037836819632825,
+          "shifted_kl": 0.8601332300207615,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8902033139630091,
+          "population_kl": 0.8822321943910018,
+          "underproduced_mass": 0.6094349877249272,
+          "shifted_kl": 0.8891959043937685,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8860749086271076,
+          "population_kl": 0.9140420886225842,
+          "underproduced_mass": 0.606878477876699,
+          "shifted_kl": 0.9085225636932482,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.89421818156882,
+          "population_kl": 0.9441680742462144,
+          "underproduced_mass": 0.612835848404889,
+          "shifted_kl": 0.932626938454804,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.9004254031376878,
+          "population_kl": 0.9665678306805895,
+          "underproduced_mass": 0.610124332175887,
+          "shifted_kl": 0.9466928336274109,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8888912906542685,
+          "population_kl": 0.9900705636447502,
+          "underproduced_mass": 0.6037453762591797,
+          "shifted_kl": 0.9615249281234527,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8931624355283906,
+          "population_kl": 1.0232402316592364,
+          "underproduced_mass": 0.6100298821327484,
+          "shifted_kl": 0.9936483930674688,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8919587869310069,
+          "population_kl": 1.0397929047208176,
+          "underproduced_mass": 0.6071405899269536,
+          "shifted_kl": 0.9987804646130763,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8945121951194188,
+          "population_kl": 1.0580628097282518,
+          "underproduced_mass": 0.6104833623448528,
+          "shifted_kl": 1.0133395486378045,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8914297584399129,
+          "population_kl": 1.0678848799606484,
+          "underproduced_mass": 0.6067476851827479,
+          "shifted_kl": 1.0124995348503132,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8904340361679789,
+          "population_kl": 1.0861976647096634,
+          "underproduced_mass": 0.6089663913931942,
+          "shifted_kl": 1.0200091291436921,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8903566960129219,
+          "population_kl": 1.1055400039954308,
+          "underproduced_mass": 0.6100768936692773,
+          "shifted_kl": 1.0345167256438885,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8901610689144672,
+          "population_kl": 1.1274764128645427,
+          "underproduced_mass": 0.6047954592360651,
+          "shifted_kl": 1.0491406673870665,
+          "rare_real_count": 0.0
+        }
+      ],
+      "random_recursive": [
+        {
+          "rare_kl": 0.4500733897168855,
+          "population_kl": 0.12451368689314206,
+          "underproduced_mass": 0.3821329262193364,
+          "shifted_kl": 0.23469902835902506,
+          "rare_real_count": 3.078125
+        },
+        {
+          "rare_kl": 0.5763516409143006,
+          "population_kl": 0.1856134513977483,
+          "underproduced_mass": 0.461958363938013,
+          "shifted_kl": 0.3175917211411957,
+          "rare_real_count": 3.16015625
+        },
+        {
+          "rare_kl": 0.6477935310983138,
+          "population_kl": 0.2243657231545751,
+          "underproduced_mass": 0.4942820311979936,
+          "shifted_kl": 0.3657400625708034,
+          "rare_real_count": 3.06640625
+        },
+        {
+          "rare_kl": 0.6872859104298243,
+          "population_kl": 0.2518004878426812,
+          "underproduced_mass": 0.5126751749331327,
+          "shifted_kl": 0.38742188077396933,
+          "rare_real_count": 2.97265625
+        },
+        {
+          "rare_kl": 0.6985107491465293,
+          "population_kl": 0.27006113421534683,
+          "underproduced_mass": 0.5197462048952936,
+          "shifted_kl": 0.4041940283296258,
+          "rare_real_count": 3.07421875
+        },
+        {
+          "rare_kl": 0.7107953866903846,
+          "population_kl": 0.28402483014663443,
+          "underproduced_mass": 0.5201989091599974,
+          "shifted_kl": 0.41887888813846397,
+          "rare_real_count": 2.9375
+        },
+        {
+          "rare_kl": 0.7154178029865091,
+          "population_kl": 0.29260898523565027,
+          "underproduced_mass": 0.5242648120179152,
+          "shifted_kl": 0.42250245624164207,
+          "rare_real_count": 2.97265625
+        },
+        {
+          "rare_kl": 0.7137010475013046,
+          "population_kl": 0.2971200606036661,
+          "underproduced_mass": 0.5249337800317243,
+          "shifted_kl": 0.4332184515254542,
+          "rare_real_count": 3.015625
+        },
+        {
+          "rare_kl": 0.7234979772299137,
+          "population_kl": 0.30530608651486046,
+          "underproduced_mass": 0.5323866901154899,
+          "shifted_kl": 0.43717174807710024,
+          "rare_real_count": 3.046875
+        },
+        {
+          "rare_kl": 0.7236432673802883,
+          "population_kl": 0.3050212781366383,
+          "underproduced_mass": 0.5299548207023214,
+          "shifted_kl": 0.43669785938595573,
+          "rare_real_count": 3.0
+        },
+        {
+          "rare_kl": 0.7307561326862801,
+          "population_kl": 0.3108470362847564,
+          "underproduced_mass": 0.5350139509485489,
+          "shifted_kl": 0.4472379366425135,
+          "rare_real_count": 2.97265625
+        },
+        {
+          "rare_kl": 0.722691033939635,
+          "population_kl": 0.30877611337164185,
+          "underproduced_mass": 0.5278078406678121,
+          "shifted_kl": 0.442674961276545,
+          "rare_real_count": 3.1953125
+        },
+        {
+          "rare_kl": 0.7161599685692097,
+          "population_kl": 0.31143664081897526,
+          "underproduced_mass": 0.5285554173462337,
+          "shifted_kl": 0.439840993792755,
+          "rare_real_count": 2.95703125
+        },
+        {
+          "rare_kl": 0.7197768670090864,
+          "population_kl": 0.3110117595788913,
+          "underproduced_mass": 0.5269903031980315,
+          "shifted_kl": 0.44505701296119443,
+          "rare_real_count": 3.08203125
+        },
+        {
+          "rare_kl": 0.7339571089907408,
+          "population_kl": 0.3125923887707884,
+          "underproduced_mass": 0.5384229427920103,
+          "shifted_kl": 0.4490961584937437,
+          "rare_real_count": 3.14453125
+        },
+        {
+          "rare_kl": 0.7323376876075538,
+          "population_kl": 0.3132265760945449,
+          "underproduced_mass": 0.5311441415580521,
+          "shifted_kl": 0.4495413732694753,
+          "rare_real_count": 2.9296875
+        },
+        {
+          "rare_kl": 0.7358966956344913,
+          "population_kl": 0.3139113353193837,
+          "underproduced_mass": 0.5309635058862231,
+          "shifted_kl": 0.4524946923451005,
+          "rare_real_count": 3.03125
+        },
+        {
+          "rare_kl": 0.735911632579989,
+          "population_kl": 0.3151522600586298,
+          "underproduced_mass": 0.5343881565397965,
+          "shifted_kl": 0.45156358943098046,
+          "rare_real_count": 3.03515625
+        },
+        {
+          "rare_kl": 0.7162203857406517,
+          "population_kl": 0.3144996621691175,
+          "underproduced_mass": 0.5255982014527106,
+          "shifted_kl": 0.44229657239718295,
+          "rare_real_count": 3.12890625
+        },
+        {
+          "rare_kl": 0.7077028591334834,
+          "population_kl": 0.3146734017125994,
+          "underproduced_mass": 0.5181292663882495,
+          "shifted_kl": 0.44037096303722734,
+          "rare_real_count": 3.04296875
+        },
+        {
+          "rare_kl": 0.7185459356647088,
+          "population_kl": 0.31952329386055023,
+          "underproduced_mass": 0.5290600229324023,
+          "shifted_kl": 0.4497047230970756,
+          "rare_real_count": 3.2109375
+        },
+        {
+          "rare_kl": 0.7142996391733986,
+          "population_kl": 0.31556587948807613,
+          "underproduced_mass": 0.528640795433698,
+          "shifted_kl": 0.4446119438444881,
+          "rare_real_count": 3.03125
+        },
+        {
+          "rare_kl": 0.7203992833799397,
+          "population_kl": 0.3105099977013234,
+          "underproduced_mass": 0.5223448262129627,
+          "shifted_kl": 0.44256022134918593,
+          "rare_real_count": 2.984375
+        },
+        {
+          "rare_kl": 0.7130010997828097,
+          "population_kl": 0.31437688195045554,
+          "underproduced_mass": 0.523107214881491,
+          "shifted_kl": 0.4401882347678291,
+          "rare_real_count": 2.98046875
+        }
+      ],
+      "balanced_recursive": [
+        {
+          "rare_kl": 0.3421884889177932,
+          "population_kl": 0.12535822948591768,
+          "underproduced_mass": 0.2801011761679829,
+          "shifted_kl": 0.19887715614663806,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.3622652066276603,
+          "population_kl": 0.1882605212548814,
+          "underproduced_mass": 0.2991877840201759,
+          "shifted_kl": 0.24781766199289884,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.3895394829427982,
+          "population_kl": 0.23668790079712793,
+          "underproduced_mass": 0.31460999124421096,
+          "shifted_kl": 0.2908259286891631,
+          "rare_real_count": 21.2578125
+        },
+        {
+          "rare_kl": 0.3937936310410588,
+          "population_kl": 0.26696702772105474,
+          "underproduced_mass": 0.3102112894896167,
+          "shifted_kl": 0.3149812173161666,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.3889871496631218,
+          "population_kl": 0.28932713298313906,
+          "underproduced_mass": 0.31437106468193005,
+          "shifted_kl": 0.33049735364912486,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.39264537766747654,
+          "population_kl": 0.3091604220408804,
+          "underproduced_mass": 0.31836899473145946,
+          "shifted_kl": 0.34379906381136294,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.3872602277246286,
+          "population_kl": 0.32240990756397364,
+          "underproduced_mass": 0.30877377852857985,
+          "shifted_kl": 0.3447468628668996,
+          "rare_real_count": 21.35546875
+        },
+        {
+          "rare_kl": 0.39945135004661864,
+          "population_kl": 0.33002041777767016,
+          "underproduced_mass": 0.3153939953153366,
+          "shifted_kl": 0.3589154576787872,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.39380409241218545,
+          "population_kl": 0.33986996879017584,
+          "underproduced_mass": 0.31430213504102483,
+          "shifted_kl": 0.36304651077232314,
+          "rare_real_count": 21.46875
+        },
+        {
+          "rare_kl": 0.3824262790252912,
+          "population_kl": 0.3488379082235404,
+          "underproduced_mass": 0.31311941572598,
+          "shifted_kl": 0.36071242618518384,
+          "rare_real_count": 21.33984375
+        },
+        {
+          "rare_kl": 0.39278571185665745,
+          "population_kl": 0.3525156310173665,
+          "underproduced_mass": 0.31744789080485003,
+          "shifted_kl": 0.36895485681150003,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.4112379902013982,
+          "population_kl": 0.3637181634078438,
+          "underproduced_mass": 0.31976512980261473,
+          "shifted_kl": 0.383643947086073,
+          "rare_real_count": 21.390625
+        },
+        {
+          "rare_kl": 0.407474295974616,
+          "population_kl": 0.36536877838320914,
+          "underproduced_mass": 0.32624512915740184,
+          "shifted_kl": 0.3782904691136905,
+          "rare_real_count": 21.3671875
+        },
+        {
+          "rare_kl": 0.4014933181164437,
+          "population_kl": 0.36528072461048666,
+          "underproduced_mass": 0.3159952437362821,
+          "shifted_kl": 0.3764211675528974,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.3888986836099503,
+          "population_kl": 0.36465683843657126,
+          "underproduced_mass": 0.3036901821927685,
+          "shifted_kl": 0.37158848617879714,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.3914032921184677,
+          "population_kl": 0.361904051688225,
+          "underproduced_mass": 0.31173305791527817,
+          "shifted_kl": 0.37339472335763035,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.396210287198069,
+          "population_kl": 0.36691988021438493,
+          "underproduced_mass": 0.3239398730838145,
+          "shifted_kl": 0.37583085527286997,
+          "rare_real_count": 21.37890625
+        },
+        {
+          "rare_kl": 0.3997385827922007,
+          "population_kl": 0.369720478445049,
+          "underproduced_mass": 0.32258969566980683,
+          "shifted_kl": 0.3801238896569327,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.4017554370001729,
+          "population_kl": 0.37154277131799224,
+          "underproduced_mass": 0.3203809726175786,
+          "shifted_kl": 0.38586701958986386,
+          "rare_real_count": 21.30859375
+        },
+        {
+          "rare_kl": 0.3890197312815598,
+          "population_kl": 0.37199286058719566,
+          "underproduced_mass": 0.31186607348961787,
+          "shifted_kl": 0.3826010705246369,
+          "rare_real_count": 21.34375
+        },
+        {
+          "rare_kl": 0.3966199444946618,
+          "population_kl": 0.37140895434355836,
+          "underproduced_mass": 0.3127676245080854,
+          "shifted_kl": 0.3814785590851001,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.38762373978277237,
+          "population_kl": 0.3753354771578151,
+          "underproduced_mass": 0.3099066991115352,
+          "shifted_kl": 0.38142650854120475,
+          "rare_real_count": 21.4765625
+        },
+        {
+          "rare_kl": 0.3945601354871246,
+          "population_kl": 0.37324313931863157,
+          "underproduced_mass": 0.3188484459115036,
+          "shifted_kl": 0.3849048206577367,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.3956534518087544,
+          "population_kl": 0.37754370805374377,
+          "underproduced_mass": 0.32203970002583154,
+          "shifted_kl": 0.3872924503377143,
+          "rare_real_count": 21.31640625
+        }
+      ],
+      "tail_recursive": [
+        {
+          "rare_kl": 0.27975703034690863,
+          "population_kl": 0.12737368238178456,
+          "underproduced_mass": 0.23165918176019532,
+          "shifted_kl": 0.18008544729731352,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2859994903604129,
+          "population_kl": 0.19839902461958053,
+          "underproduced_mass": 0.23567272796435387,
+          "shifted_kl": 0.2358805227062178,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2954750676815002,
+          "population_kl": 0.2542837866856965,
+          "underproduced_mass": 0.24278119065874681,
+          "shifted_kl": 0.28033308264818885,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29509885586352363,
+          "population_kl": 0.29631979101842576,
+          "underproduced_mass": 0.2457716874060837,
+          "shifted_kl": 0.3077004463613238,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29338261440539887,
+          "population_kl": 0.3329823841900676,
+          "underproduced_mass": 0.23868266391721862,
+          "shifted_kl": 0.3342718186546315,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2953706717124737,
+          "population_kl": 0.35585863074235735,
+          "underproduced_mass": 0.24358903782496208,
+          "shifted_kl": 0.35037561795404304,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29298213040612686,
+          "population_kl": 0.38345617041110536,
+          "underproduced_mass": 0.24102749732466694,
+          "shifted_kl": 0.36616819997640226,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29363240158852666,
+          "population_kl": 0.4066059017443452,
+          "underproduced_mass": 0.23706583779578017,
+          "shifted_kl": 0.3849542160306348,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29581469137079835,
+          "population_kl": 0.4202966999190779,
+          "underproduced_mass": 0.23693289110879626,
+          "shifted_kl": 0.3930529757738474,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.296602242533899,
+          "population_kl": 0.4276589509666391,
+          "underproduced_mass": 0.2335726302387171,
+          "shifted_kl": 0.39741966507259324,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29785639979675055,
+          "population_kl": 0.4468411083411668,
+          "underproduced_mass": 0.24014274135638208,
+          "shifted_kl": 0.4078238317929502,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3009950669763926,
+          "population_kl": 0.45809761458829185,
+          "underproduced_mass": 0.24605447647744977,
+          "shifted_kl": 0.4160621742235115,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.296178053830876,
+          "population_kl": 0.4661325059986939,
+          "underproduced_mass": 0.24377065977931547,
+          "shifted_kl": 0.4192846776845019,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29832567073199945,
+          "population_kl": 0.47344332948630297,
+          "underproduced_mass": 0.2505470708794676,
+          "shifted_kl": 0.42487770864451924,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2951363816259696,
+          "population_kl": 0.4840046711807112,
+          "underproduced_mass": 0.24363830791621632,
+          "shifted_kl": 0.4337060191738746,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29824492059232216,
+          "population_kl": 0.4884056920693844,
+          "underproduced_mass": 0.24375504200025924,
+          "shifted_kl": 0.4395188763802547,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2932950967573437,
+          "population_kl": 0.49454458384860606,
+          "underproduced_mass": 0.23688802081520197,
+          "shifted_kl": 0.4407693630396363,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2993860286998949,
+          "population_kl": 0.49603557606237847,
+          "underproduced_mass": 0.24224725089902885,
+          "shifted_kl": 0.44156033000522643,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29908778957469334,
+          "population_kl": 0.4954291029355775,
+          "underproduced_mass": 0.24927713341244756,
+          "shifted_kl": 0.43868153687539524,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2907343545351355,
+          "population_kl": 0.49176880373293225,
+          "underproduced_mass": 0.24071075043952894,
+          "shifted_kl": 0.44167617472663917,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2962801352379639,
+          "population_kl": 0.4900153857424421,
+          "underproduced_mass": 0.24087630911534025,
+          "shifted_kl": 0.4374416089570499,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29136235014286677,
+          "population_kl": 0.49346437507694285,
+          "underproduced_mass": 0.24578921485702585,
+          "shifted_kl": 0.4345434695639359,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2990967371541618,
+          "population_kl": 0.502689790052418,
+          "underproduced_mass": 0.2527189130198261,
+          "shifted_kl": 0.44491122929866894,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29145918565253426,
+          "population_kl": 0.5041607645725023,
+          "underproduced_mass": 0.23596831001869092,
+          "shifted_kl": 0.44728422531446976,
+          "rare_real_count": 38.0
+        }
+      ],
+      "tail_real_only": [
+        {
+          "rare_kl": 0.3258677082724421,
+          "population_kl": 0.4416011566647242,
+          "underproduced_mass": 0.2748919123840659,
+          "shifted_kl": 0.4007550189255461,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.309460360379852,
+          "population_kl": 0.4414647187250397,
+          "underproduced_mass": 0.2601981991594337,
+          "shifted_kl": 0.4051203239264577,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3181297460281439,
+          "population_kl": 0.441711062108262,
+          "underproduced_mass": 0.2704232775352139,
+          "shifted_kl": 0.40802941675051696,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31455195970657834,
+          "population_kl": 0.44539642864243734,
+          "underproduced_mass": 0.27058879526231805,
+          "shifted_kl": 0.4090608254819135,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3217096032773878,
+          "population_kl": 0.45192626345304976,
+          "underproduced_mass": 0.2656718414165164,
+          "shifted_kl": 0.41319101506034794,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3178534609797225,
+          "population_kl": 0.4458059801757066,
+          "underproduced_mass": 0.2698389405320183,
+          "shifted_kl": 0.41159091761850664,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31115473647424124,
+          "population_kl": 0.4451913105137396,
+          "underproduced_mass": 0.2675959525757287,
+          "shifted_kl": 0.4038922858650561,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3101871190823999,
+          "population_kl": 0.4395316005194015,
+          "underproduced_mass": 0.26381071077962864,
+          "shifted_kl": 0.40012281671953137,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3154237474833041,
+          "population_kl": 0.4422377606663682,
+          "underproduced_mass": 0.26877469943948984,
+          "shifted_kl": 0.401386408782929,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31090248526381686,
+          "population_kl": 0.4426739598328398,
+          "underproduced_mass": 0.2620050803233469,
+          "shifted_kl": 0.39873915991378744,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32290113062866227,
+          "population_kl": 0.44741727826991595,
+          "underproduced_mass": 0.2773462338236151,
+          "shifted_kl": 0.4116627995788424,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3199159650460176,
+          "population_kl": 0.4325743873003857,
+          "underproduced_mass": 0.26670186006785,
+          "shifted_kl": 0.4047937213336955,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32037458787497247,
+          "population_kl": 0.45028615326253596,
+          "underproduced_mass": 0.27424817129364404,
+          "shifted_kl": 0.41148057348324085,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3215597041737059,
+          "population_kl": 0.44435144083332706,
+          "underproduced_mass": 0.2712724659049349,
+          "shifted_kl": 0.412597767992631,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31117230512484145,
+          "population_kl": 0.4490765062129078,
+          "underproduced_mass": 0.2703197452180483,
+          "shifted_kl": 0.40750799254669273,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32240706169665106,
+          "population_kl": 0.44223354595419695,
+          "underproduced_mass": 0.27463438011984964,
+          "shifted_kl": 0.40640072661103266,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3165425349056292,
+          "population_kl": 0.44702068563146724,
+          "underproduced_mass": 0.2673373207974558,
+          "shifted_kl": 0.4084813105314306,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32595338750978725,
+          "population_kl": 0.4442519495318148,
+          "underproduced_mass": 0.2721638120627674,
+          "shifted_kl": 0.4111196557249682,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32678987344556737,
+          "population_kl": 0.441452060549154,
+          "underproduced_mass": 0.2741644803359839,
+          "shifted_kl": 0.4111929861277946,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.30967032816542106,
+          "population_kl": 0.44794390826083047,
+          "underproduced_mass": 0.2616799947714293,
+          "shifted_kl": 0.40603136624620817,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3187627004203404,
+          "population_kl": 0.4465332840996363,
+          "underproduced_mass": 0.269145452505002,
+          "shifted_kl": 0.40293226217061895,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31676540070791126,
+          "population_kl": 0.4427458168745811,
+          "underproduced_mass": 0.27028289442244724,
+          "shifted_kl": 0.40366675804478247,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3179859925247269,
+          "population_kl": 0.4390061878995362,
+          "underproduced_mass": 0.2697507600274558,
+          "shifted_kl": 0.4019624545663325,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3151485004810559,
+          "population_kl": 0.44222045502231533,
+          "underproduced_mass": 0.2684693976619669,
+          "shifted_kl": 0.4086727991902701,
+          "rare_real_count": 38.0
+        }
+      ],
+      "tail_rolling_real": [
+        {
+          "rare_kl": 0.3258677082724421,
+          "population_kl": 0.4416011566647242,
+          "underproduced_mass": 0.2748919123840659,
+          "shifted_kl": 0.4007550189255461,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.20792048874031466,
+          "population_kl": 0.36547437733586774,
+          "underproduced_mass": 0.17569565494137396,
+          "shifted_kl": 0.32031681508392545,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.15438835247233137,
+          "population_kl": 0.30733246843068,
+          "underproduced_mass": 0.1309600152862906,
+          "shifted_kl": 0.26569393989076245,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12412009317547927,
+          "population_kl": 0.2598191700187486,
+          "underproduced_mass": 0.10086693640129557,
+          "shifted_kl": 0.22300408400670374,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12412907582892799,
+          "population_kl": 0.26157576364573715,
+          "underproduced_mass": 0.10321462647528064,
+          "shifted_kl": 0.22330050935103352,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.125747392443071,
+          "population_kl": 0.26286254309153134,
+          "underproduced_mass": 0.09921767935080741,
+          "shifted_kl": 0.22533644952877196,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12009303825313894,
+          "population_kl": 0.2666838324698064,
+          "underproduced_mass": 0.09702561483397994,
+          "shifted_kl": 0.22271489264909833,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12350010144634703,
+          "population_kl": 0.26903453607142647,
+          "underproduced_mass": 0.1011573629033187,
+          "shifted_kl": 0.2258804917636393,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12366640079459454,
+          "population_kl": 0.26479997201775396,
+          "underproduced_mass": 0.103091502692613,
+          "shifted_kl": 0.2243602703444607,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12361752223514451,
+          "population_kl": 0.2623981454871052,
+          "underproduced_mass": 0.09836375563886196,
+          "shifted_kl": 0.22019534789855855,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12233844619246659,
+          "population_kl": 0.25961172846195313,
+          "underproduced_mass": 0.09708100437410241,
+          "shifted_kl": 0.21722264672920458,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1236314544766219,
+          "population_kl": 0.26165148084833423,
+          "underproduced_mass": 0.1020935119126716,
+          "shifted_kl": 0.22375142059672753,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12550325622526112,
+          "population_kl": 0.2633347160788708,
+          "underproduced_mass": 0.1008638101883946,
+          "shifted_kl": 0.22284917593339007,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12922491981921977,
+          "population_kl": 0.26084015693722695,
+          "underproduced_mass": 0.10494758686011302,
+          "shifted_kl": 0.22051481205397272,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12533326664682665,
+          "population_kl": 0.2602071404650654,
+          "underproduced_mass": 0.10146249132898709,
+          "shifted_kl": 0.22299291017391745,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12435866928193637,
+          "population_kl": 0.2632027383365037,
+          "underproduced_mass": 0.10332189788980198,
+          "shifted_kl": 0.22436768253835557,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1195850903877089,
+          "population_kl": 0.263539907309723,
+          "underproduced_mass": 0.10035775004796778,
+          "shifted_kl": 0.22302122591285317,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12456769227281143,
+          "population_kl": 0.26381339434594053,
+          "underproduced_mass": 0.1031864629901797,
+          "shifted_kl": 0.22670786119285644,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1267684315672146,
+          "population_kl": 0.26461207520694113,
+          "underproduced_mass": 0.10291919264869068,
+          "shifted_kl": 0.2264886100646623,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12640963053347784,
+          "population_kl": 0.2627291755364158,
+          "underproduced_mass": 0.1026387087392492,
+          "shifted_kl": 0.2237318660585925,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1278911677904793,
+          "population_kl": 0.26365011315036974,
+          "underproduced_mass": 0.10615495486954012,
+          "shifted_kl": 0.2222053723242391,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1256429854055689,
+          "population_kl": 0.26005006889785626,
+          "underproduced_mass": 0.10310620643362985,
+          "shifted_kl": 0.2184435920629081,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12641746472336365,
+          "population_kl": 0.2615911903752992,
+          "underproduced_mass": 0.09969260374260526,
+          "shifted_kl": 0.22177645931046008,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12669371913773403,
+          "population_kl": 0.2638886254515429,
+          "underproduced_mass": 0.10432151663274283,
+          "shifted_kl": 0.22290055411537452,
+          "rare_real_count": 38.0
+        }
+      ],
+      "balanced_cumulative_real": [
+        {
+          "rare_kl": 0.17615792421897816,
+          "population_kl": 0.028030470616974532,
+          "underproduced_mass": 0.150605619142664,
+          "shifted_kl": 0.08136031476962065,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.1461847261541208,
+          "population_kl": 0.026480910598517492,
+          "underproduced_mass": 0.12247201821878193,
+          "shifted_kl": 0.0687053589504572,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.12834647799651103,
+          "population_kl": 0.02539738576015185,
+          "underproduced_mass": 0.10596325522830546,
+          "shifted_kl": 0.0617674453139261,
+          "rare_real_count": 21.2578125
+        },
+        {
+          "rare_kl": 0.11343008429630971,
+          "population_kl": 0.024453690477505955,
+          "underproduced_mass": 0.09299050697636319,
+          "shifted_kl": 0.05575680428926763,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.10249658182882178,
+          "population_kl": 0.023708222503137918,
+          "underproduced_mass": 0.08222116551269006,
+          "shifted_kl": 0.051210212666303725,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.09203506953326236,
+          "population_kl": 0.02284703813781976,
+          "underproduced_mass": 0.07478018038966704,
+          "shifted_kl": 0.04656655013731845,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.08504745472280789,
+          "population_kl": 0.022200432637476893,
+          "underproduced_mass": 0.06610539574035176,
+          "shifted_kl": 0.04407410864609282,
+          "rare_real_count": 21.35546875
+        },
+        {
+          "rare_kl": 0.07901545885400356,
+          "population_kl": 0.021666701035430908,
+          "underproduced_mass": 0.05965614949135174,
+          "shifted_kl": 0.04092763741877536,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.0737776620957992,
+          "population_kl": 0.021109706522715516,
+          "underproduced_mass": 0.057138005895328775,
+          "shifted_kl": 0.03891710829802051,
+          "rare_real_count": 21.46875
+        },
+        {
+          "rare_kl": 0.06852040840948541,
+          "population_kl": 0.020505009229191847,
+          "underproduced_mass": 0.05243818584123601,
+          "shifted_kl": 0.03672464040858716,
+          "rare_real_count": 21.33984375
+        },
+        {
+          "rare_kl": 0.06406427982648562,
+          "population_kl": 0.0200624667119217,
+          "underproduced_mass": 0.04760389708539357,
+          "shifted_kl": 0.03485372853375637,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.06002366581055302,
+          "population_kl": 0.019646454483612075,
+          "underproduced_mass": 0.0421473866352585,
+          "shifted_kl": 0.03321140430656183,
+          "rare_real_count": 21.390625
+        },
+        {
+          "rare_kl": 0.056714558537882875,
+          "population_kl": 0.01926001520546428,
+          "underproduced_mass": 0.03944563931758385,
+          "shifted_kl": 0.03214611447028332,
+          "rare_real_count": 21.3671875
+        },
+        {
+          "rare_kl": 0.05383190570068552,
+          "population_kl": 0.018844294540472185,
+          "underproduced_mass": 0.037248944530079854,
+          "shifted_kl": 0.0308702985336104,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.05092904832644812,
+          "population_kl": 0.01844951733407208,
+          "underproduced_mass": 0.034961494981327286,
+          "shifted_kl": 0.02951460278809917,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.04872737969744359,
+          "population_kl": 0.018053885006199574,
+          "underproduced_mass": 0.03205325160304329,
+          "shifted_kl": 0.028433689081325954,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.0468390551516606,
+          "population_kl": 0.017714766014291568,
+          "underproduced_mass": 0.030304450890104223,
+          "shifted_kl": 0.02768530438612432,
+          "rare_real_count": 21.37890625
+        },
+        {
+          "rare_kl": 0.04473526485405016,
+          "population_kl": 0.017363181631459564,
+          "underproduced_mass": 0.02896786852887489,
+          "shifted_kl": 0.026626589878347068,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.043348116185942004,
+          "population_kl": 0.017023174723365415,
+          "underproduced_mass": 0.027892124728639733,
+          "shifted_kl": 0.02590994550925191,
+          "rare_real_count": 21.30859375
+        },
+        {
+          "rare_kl": 0.04144845242664954,
+          "population_kl": 0.01673498807217304,
+          "underproduced_mass": 0.02538723083525943,
+          "shifted_kl": 0.02509701184656139,
+          "rare_real_count": 21.34375
+        },
+        {
+          "rare_kl": 0.03976368358461978,
+          "population_kl": 0.01646535297608028,
+          "underproduced_mass": 0.024226912959646886,
+          "shifted_kl": 0.02428025134599422,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.03821881193397401,
+          "population_kl": 0.01617815644396741,
+          "underproduced_mass": 0.023454316423833547,
+          "shifted_kl": 0.023540666017151973,
+          "rare_real_count": 21.4765625
+        },
+        {
+          "rare_kl": 0.03699444647201392,
+          "population_kl": 0.015885587202803392,
+          "underproduced_mass": 0.022020941705085895,
+          "shifted_kl": 0.02293956546253943,
+          "rare_real_count": 21.32421875
+        },
+        {
+          "rare_kl": 0.03579813783665659,
+          "population_kl": 0.015631016221124103,
+          "underproduced_mass": 0.021255153130028345,
+          "shifted_kl": 0.022345847200217407,
+          "rare_real_count": 21.31640625
+        }
+      ]
+    }
+  },
+  "context_shift": {
+    "last_four_rounds": {
+      "anchor": {
+        "rare_kl": 0.6265627569594132,
+        "population_kl": 0.6918018428552304,
+        "underproduced_mass": 0.3044677075545532,
+        "shifted_kl": 1.3097177655717065,
+        "rare_real_count": 0.0
+      },
+      "synthetic_only": {
+        "rare_kl": 0.8690754703714544,
+        "population_kl": 1.2192899669687773,
+        "underproduced_mass": 0.5974745040661302,
+        "shifted_kl": 1.1840661933584757,
+        "rare_real_count": 0.0
+      },
+      "random_recursive": {
+        "rare_kl": 0.7264100950932135,
+        "population_kl": 0.32286118006261055,
+        "underproduced_mass": 0.5289397468954262,
+        "shifted_kl": 0.4589463473746899,
+        "rare_real_count": 3.0
+      },
+      "balanced_recursive": {
+        "rare_kl": 0.3978148213778271,
+        "population_kl": 0.3848815605864746,
+        "underproduced_mass": 0.3225735648356445,
+        "shifted_kl": 0.39581013552041594,
+        "rare_real_count": 21.3310546875
+      },
+      "tail_recursive": {
+        "rare_kl": 0.2965029880809776,
+        "population_kl": 0.5122411686198174,
+        "underproduced_mass": 0.24464491213697717,
+        "shifted_kl": 0.463303678313885,
+        "rare_real_count": 38.0
+      },
+      "tail_real_only": {
+        "rare_kl": 0.32229964080907536,
+        "population_kl": 0.4482659615654331,
+        "underproduced_mass": 0.2755436424319954,
+        "shifted_kl": 0.4090151716951915,
+        "rare_real_count": 38.0
+      },
+      "tail_rolling_real": {
+        "rare_kl": 0.1278224784218928,
+        "population_kl": 0.26564880137794833,
+        "underproduced_mass": 0.10494889263140697,
+        "shifted_kl": 0.2244333449413675,
+        "rare_real_count": 38.0
+      },
+      "balanced_cumulative_real": {
+        "rare_kl": 0.12019010723805905,
+        "population_kl": 0.21721033337968162,
+        "underproduced_mass": 0.06527475610685653,
+        "shifted_kl": 0.3627598758977725,
+        "rare_real_count": 21.3310546875
+      }
+    },
+    "rare_nll_improvement_against": {
+      "anchor": [
+        0.33005976887843536,
+        0.3110120824173177,
+        0.3492493360652116
+      ],
+      "synthetic_only": [
+        0.5725724822904774,
+        0.5527716016546331,
+        0.592849189699699
+      ],
+      "random_recursive": [
+        0.42990710701223545,
+        0.4144357655606293,
+        0.4458430703212855
+      ],
+      "balanced_recursive": [
+        0.10131183329684894,
+        0.0940619148203901,
+        0.10856639642579476
+      ],
+      "tail_real_only": [
+        0.025796652728097485,
+        0.021866527797037377,
+        0.0297728945123745
+      ],
+      "tail_rolling_real": [
+        -0.16868050965908502,
+        -0.17331102623324415,
+        -0.16418793102866314
+      ],
+      "balanced_cumulative_real": [
+        -0.1763128808429188,
+        -0.18284374693422145,
+        -0.16995069017240766
+      ]
+    },
+    "population_nll_degradation_vs_balanced": [
+      0.1273596080333429,
+      0.11811460199902157,
+      0.13703316609169308
+    ],
+    "curves": {
+      "anchor": [
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.21264899788180783,
+          "population_kl": 0.029314374703665404,
+          "underproduced_mass": 0.17526905241019944,
+          "shifted_kl": 0.0965363377716968,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6265627569594132,
+          "population_kl": 0.6918018428552304,
+          "underproduced_mass": 0.3044677075545532,
+          "shifted_kl": 1.3097177655717065,
+          "rare_real_count": 0.0
+        }
+      ],
+      "synthetic_only": [
+        {
+          "rare_kl": 0.4879924081487739,
+          "population_kl": 0.14202677683972373,
+          "underproduced_mass": 0.41049569853718226,
+          "shifted_kl": 0.25603198772671376,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.6452850129853254,
+          "population_kl": 0.2421792330499023,
+          "underproduced_mass": 0.49944453927118326,
+          "shifted_kl": 0.373301659557608,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.7340945965025836,
+          "population_kl": 0.3278479883376684,
+          "underproduced_mass": 0.5457935706619959,
+          "shifted_kl": 0.4600546843660963,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.7820601114125285,
+          "population_kl": 0.40722270705048585,
+          "underproduced_mass": 0.5652370267763963,
+          "shifted_kl": 0.5247506566719491,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8104481831694453,
+          "population_kl": 0.4800557574823299,
+          "underproduced_mass": 0.5743156198697658,
+          "shifted_kl": 0.5869867445521771,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8338426443045261,
+          "population_kl": 0.5489943287521284,
+          "underproduced_mass": 0.5898600434521993,
+          "shifted_kl": 0.6450509076835903,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8393581001359388,
+          "population_kl": 0.6133523824109071,
+          "underproduced_mass": 0.5858963672830965,
+          "shifted_kl": 0.6906874718993008,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8414077653860309,
+          "population_kl": 0.6651417327635892,
+          "underproduced_mass": 0.5909171415312768,
+          "shifted_kl": 0.7254752748841413,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8521038146767047,
+          "population_kl": 0.9733917988546282,
+          "underproduced_mass": 0.5864911522281716,
+          "shifted_kl": 1.1313294816717507,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8549413446908024,
+          "population_kl": 1.0034148696553444,
+          "underproduced_mass": 0.5927789482106264,
+          "shifted_kl": 1.1364150395415544,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8552392573376523,
+          "population_kl": 1.0277050655331461,
+          "underproduced_mass": 0.5925609418614073,
+          "shifted_kl": 1.137325533377637,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8693729494348008,
+          "population_kl": 1.0564826418544038,
+          "underproduced_mass": 0.6025614217092723,
+          "shifted_kl": 1.1565550785398477,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8791384090333059,
+          "population_kl": 1.0799800323061162,
+          "underproduced_mass": 0.6058517228349931,
+          "shifted_kl": 1.1554580193223931,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8697374949536368,
+          "population_kl": 1.0974230207357536,
+          "underproduced_mass": 0.6027779766404422,
+          "shifted_kl": 1.1521873985262696,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8899856994596426,
+          "population_kl": 1.114502571338945,
+          "underproduced_mass": 0.6063882688777806,
+          "shifted_kl": 1.1644376465605488,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.877638739678139,
+          "population_kl": 1.1260361385958497,
+          "underproduced_mass": 0.5972242621018394,
+          "shifted_kl": 1.1614032301120132,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8864947790274443,
+          "population_kl": 1.1494601320296278,
+          "underproduced_mass": 0.5975572656139323,
+          "shifted_kl": 1.1695113647442823,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8735811686723313,
+          "population_kl": 1.1608232927270024,
+          "underproduced_mass": 0.6018973069348539,
+          "shifted_kl": 1.166181864415673,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8848119923316125,
+          "population_kl": 1.1699724667624438,
+          "underproduced_mass": 0.6017061184823376,
+          "shifted_kl": 1.1757349200009428,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8811342972897349,
+          "population_kl": 1.1911383256933317,
+          "underproduced_mass": 0.607641471036547,
+          "shifted_kl": 1.1810950183253208,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8683898318564756,
+          "population_kl": 1.2014182355533025,
+          "underproduced_mass": 0.5953662798270538,
+          "shifted_kl": 1.1789875697006138,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8691297693992963,
+          "population_kl": 1.2194264310543408,
+          "underproduced_mass": 0.5976827857659234,
+          "shifted_kl": 1.1815581265477748,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8703771529247489,
+          "population_kl": 1.22543351786927,
+          "underproduced_mass": 0.5955752167572655,
+          "shifted_kl": 1.184079878745926,
+          "rare_real_count": 0.0
+        },
+        {
+          "rare_kl": 0.8684051273053014,
+          "population_kl": 1.2308816833981993,
+          "underproduced_mass": 0.6012737339142773,
+          "shifted_kl": 1.1916391984395875,
+          "rare_real_count": 0.0
+        }
+      ],
+      "random_recursive": [
+        {
+          "rare_kl": 0.46637962619446666,
+          "population_kl": 0.1243736187746155,
+          "underproduced_mass": 0.3941149312077195,
+          "shifted_kl": 0.23795953063909592,
+          "rare_real_count": 2.984375
+        },
+        {
+          "rare_kl": 0.592935281305715,
+          "population_kl": 0.18642058379566584,
+          "underproduced_mass": 0.46495150415072733,
+          "shifted_kl": 0.32261170278281864,
+          "rare_real_count": 2.9375
+        },
+        {
+          "rare_kl": 0.6605232639301324,
+          "population_kl": 0.22416343619277795,
+          "underproduced_mass": 0.5025840698414191,
+          "shifted_kl": 0.37048263300372397,
+          "rare_real_count": 2.9921875
+        },
+        {
+          "rare_kl": 0.682761579336595,
+          "population_kl": 0.25387043227125833,
+          "underproduced_mass": 0.5075843855491585,
+          "shifted_kl": 0.3977960010172227,
+          "rare_real_count": 2.890625
+        },
+        {
+          "rare_kl": 0.695911375843865,
+          "population_kl": 0.27022383101937014,
+          "underproduced_mass": 0.5116838234096366,
+          "shifted_kl": 0.4109325450230036,
+          "rare_real_count": 3.09765625
+        },
+        {
+          "rare_kl": 0.7002619158768919,
+          "population_kl": 0.2830479511358684,
+          "underproduced_mass": 0.5165526871302488,
+          "shifted_kl": 0.42101960205186983,
+          "rare_real_count": 3.06640625
+        },
+        {
+          "rare_kl": 0.7138533328565726,
+          "population_kl": 0.2868676134913552,
+          "underproduced_mass": 0.5182920330344707,
+          "shifted_kl": 0.42834641081635894,
+          "rare_real_count": 2.88671875
+        },
+        {
+          "rare_kl": 0.7248287751804288,
+          "population_kl": 0.295296978963531,
+          "underproduced_mass": 0.524663155683956,
+          "shifted_kl": 0.43444586159596427,
+          "rare_real_count": 3.02734375
+        },
+        {
+          "rare_kl": 0.7362916041753074,
+          "population_kl": 0.49682406340502283,
+          "underproduced_mass": 0.5342862376047012,
+          "shifted_kl": 0.730465833401854,
+          "rare_real_count": 2.92578125
+        },
+        {
+          "rare_kl": 0.7172013388883828,
+          "population_kl": 0.4305806441717415,
+          "underproduced_mass": 0.5274898067034793,
+          "shifted_kl": 0.6297881911772223,
+          "rare_real_count": 3.00390625
+        },
+        {
+          "rare_kl": 0.712845489619204,
+          "population_kl": 0.3963270967562897,
+          "underproduced_mass": 0.5227349574986921,
+          "shifted_kl": 0.5717187651487794,
+          "rare_real_count": 3.078125
+        },
+        {
+          "rare_kl": 0.7096068104446545,
+          "population_kl": 0.37484339881579143,
+          "underproduced_mass": 0.5255257202402323,
+          "shifted_kl": 0.543703367128433,
+          "rare_real_count": 2.890625
+        },
+        {
+          "rare_kl": 0.7155104100153158,
+          "population_kl": 0.3614734694425067,
+          "underproduced_mass": 0.5258155968920777,
+          "shifted_kl": 0.5143417344323452,
+          "rare_real_count": 2.9296875
+        },
+        {
+          "rare_kl": 0.7102557465876553,
+          "population_kl": 0.3565589380304827,
+          "underproduced_mass": 0.5260560843827655,
+          "shifted_kl": 0.5065498922772184,
+          "rare_real_count": 2.984375
+        },
+        {
+          "rare_kl": 0.7234717092497379,
+          "population_kl": 0.34735815474362997,
+          "underproduced_mass": 0.5322657528041749,
+          "shifted_kl": 0.4933339528848905,
+          "rare_real_count": 3.19921875
+        },
+        {
+          "rare_kl": 0.7131871033856576,
+          "population_kl": 0.3416002054081905,
+          "underproduced_mass": 0.519242090699042,
+          "shifted_kl": 0.48134122765329007,
+          "rare_real_count": 2.98828125
+        },
+        {
+          "rare_kl": 0.7187623641610739,
+          "population_kl": 0.33956346227093614,
+          "underproduced_mass": 0.5256006672280817,
+          "shifted_kl": 0.4760070298846461,
+          "rare_real_count": 3.015625
+        },
+        {
+          "rare_kl": 0.7140222283496067,
+          "population_kl": 0.3371919650354377,
+          "underproduced_mass": 0.5252265270695698,
+          "shifted_kl": 0.47793825532039946,
+          "rare_real_count": 3.25390625
+        },
+        {
+          "rare_kl": 0.7134247282530295,
+          "population_kl": 0.3326575650922049,
+          "underproduced_mass": 0.5235068521870156,
+          "shifted_kl": 0.46741354198731955,
+          "rare_real_count": 2.9921875
+        },
+        {
+          "rare_kl": 0.7245175994551848,
+          "population_kl": 0.3277070052261876,
+          "underproduced_mass": 0.52672085393056,
+          "shifted_kl": 0.4661530589333204,
+          "rare_real_count": 2.94921875
+        },
+        {
+          "rare_kl": 0.7204953807496969,
+          "population_kl": 0.3227135767481912,
+          "underproduced_mass": 0.5294803784639263,
+          "shifted_kl": 0.46063232218921085,
+          "rare_real_count": 3.03125
+        },
+        {
+          "rare_kl": 0.7296138154317414,
+          "population_kl": 0.3191065623438536,
+          "underproduced_mass": 0.5291629363796095,
+          "shifted_kl": 0.45310817185843594,
+          "rare_real_count": 3.0859375
+        },
+        {
+          "rare_kl": 0.7222279085603595,
+          "population_kl": 0.3270705365716822,
+          "underproduced_mass": 0.5306656662729095,
+          "shifted_kl": 0.46272603818206476,
+          "rare_real_count": 2.8984375
+        },
+        {
+          "rare_kl": 0.7333032756310548,
+          "population_kl": 0.32255404458671477,
+          "underproduced_mass": 0.5264500064652587,
+          "shifted_kl": 0.45931885726904936,
+          "rare_real_count": 2.984375
+        }
+      ],
+      "balanced_recursive": [
+        {
+          "rare_kl": 0.34888509946112295,
+          "population_kl": 0.12344838675589384,
+          "underproduced_mass": 0.29232037885188367,
+          "shifted_kl": 0.20020681727369274,
+          "rare_real_count": 21.28515625
+        },
+        {
+          "rare_kl": 0.3727826437686221,
+          "population_kl": 0.18774147168654823,
+          "underproduced_mass": 0.30245279445555445,
+          "shifted_kl": 0.2504651523319138,
+          "rare_real_count": 21.3671875
+        },
+        {
+          "rare_kl": 0.3948650083906371,
+          "population_kl": 0.2321105350534434,
+          "underproduced_mass": 0.30920765464741135,
+          "shifted_kl": 0.2857373007308843,
+          "rare_real_count": 21.26171875
+        },
+        {
+          "rare_kl": 0.38931595401441665,
+          "population_kl": 0.26318374905991904,
+          "underproduced_mass": 0.3115872415434973,
+          "shifted_kl": 0.3041232505118588,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.3881137533360677,
+          "population_kl": 0.2859134997406722,
+          "underproduced_mass": 0.31664346389068265,
+          "shifted_kl": 0.31937526628615426,
+          "rare_real_count": 21.390625
+        },
+        {
+          "rare_kl": 0.39060025914969,
+          "population_kl": 0.3045879556914704,
+          "underproduced_mass": 0.31611520693523437,
+          "shifted_kl": 0.3356794885012068,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.3889378824809431,
+          "population_kl": 0.31417220643733684,
+          "underproduced_mass": 0.3092593049943292,
+          "shifted_kl": 0.3443671872661879,
+          "rare_real_count": 21.30078125
+        },
+        {
+          "rare_kl": 0.3954767286098124,
+          "population_kl": 0.32753230517147247,
+          "underproduced_mass": 0.3169196233781096,
+          "shifted_kl": 0.3535766309095967,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.4505835725435141,
+          "population_kl": 0.5481106493264303,
+          "underproduced_mass": 0.3485041891335566,
+          "shifted_kl": 0.6867742768691665,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.41306522296154274,
+          "population_kl": 0.4903476008803554,
+          "underproduced_mass": 0.3288452179508182,
+          "shifted_kl": 0.5760554118311243,
+          "rare_real_count": 21.30078125
+        },
+        {
+          "rare_kl": 0.396997262214078,
+          "population_kl": 0.4632996213779726,
+          "underproduced_mass": 0.32412638035909025,
+          "shifted_kl": 0.5263940761742414,
+          "rare_real_count": 21.3515625
+        },
+        {
+          "rare_kl": 0.4081688494789967,
+          "population_kl": 0.4418913266142704,
+          "underproduced_mass": 0.32721622368720754,
+          "shifted_kl": 0.49634643188074534,
+          "rare_real_count": 21.44140625
+        },
+        {
+          "rare_kl": 0.402415342258081,
+          "population_kl": 0.4289419367989752,
+          "underproduced_mass": 0.32088632016347063,
+          "shifted_kl": 0.4712460297072824,
+          "rare_real_count": 21.25
+        },
+        {
+          "rare_kl": 0.39110247357493,
+          "population_kl": 0.41895204913387574,
+          "underproduced_mass": 0.31958784875997764,
+          "shifted_kl": 0.4529612623364744,
+          "rare_real_count": 21.39453125
+        },
+        {
+          "rare_kl": 0.39596459248216614,
+          "population_kl": 0.407098359961599,
+          "underproduced_mass": 0.32402596660947214,
+          "shifted_kl": 0.4357949635856411,
+          "rare_real_count": 21.29296875
+        },
+        {
+          "rare_kl": 0.3905763642522993,
+          "population_kl": 0.40309314325351886,
+          "underproduced_mass": 0.3174337873400285,
+          "shifted_kl": 0.42353353499760277,
+          "rare_real_count": 21.33984375
+        },
+        {
+          "rare_kl": 0.39583050020478144,
+          "population_kl": 0.3995711332760263,
+          "underproduced_mass": 0.3231361926493585,
+          "shifted_kl": 0.41876103775932555,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.3902890837809277,
+          "population_kl": 0.3939911452301164,
+          "underproduced_mass": 0.30734064680323586,
+          "shifted_kl": 0.4062724108687148,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.388135112161485,
+          "population_kl": 0.3888335342402073,
+          "underproduced_mass": 0.30822359369838076,
+          "shifted_kl": 0.39730115724157555,
+          "rare_real_count": 21.43359375
+        },
+        {
+          "rare_kl": 0.39557992785886653,
+          "population_kl": 0.38507769982265977,
+          "underproduced_mass": 0.30944470309175864,
+          "shifted_kl": 0.3943271524173066,
+          "rare_real_count": 21.3515625
+        },
+        {
+          "rare_kl": 0.3999550845315885,
+          "population_kl": 0.3867832311497701,
+          "underproduced_mass": 0.3244900545685898,
+          "shifted_kl": 0.3961080392057674,
+          "rare_real_count": 21.39453125
+        },
+        {
+          "rare_kl": 0.39406864308150447,
+          "population_kl": 0.384864615012426,
+          "underproduced_mass": 0.3186269285727802,
+          "shifted_kl": 0.3941883441193398,
+          "rare_real_count": 21.30859375
+        },
+        {
+          "rare_kl": 0.3939765223690035,
+          "population_kl": 0.38508076009143577,
+          "underproduced_mass": 0.3189689220836395,
+          "shifted_kl": 0.39689088953894963,
+          "rare_real_count": 21.29296875
+        },
+        {
+          "rare_kl": 0.4032590355292109,
+          "population_kl": 0.3827976360922669,
+          "underproduced_mass": 0.32820835411756805,
+          "shifted_kl": 0.3960532692176076,
+          "rare_real_count": 21.328125
+        }
+      ],
+      "tail_recursive": [
+        {
+          "rare_kl": 0.2830300603033751,
+          "population_kl": 0.12526296789958166,
+          "underproduced_mass": 0.23881713174945013,
+          "shifted_kl": 0.18099430549476606,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2857140291248131,
+          "population_kl": 0.19649197736110438,
+          "underproduced_mass": 0.23233318940749814,
+          "shifted_kl": 0.22922082009597639,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2950243253022965,
+          "population_kl": 0.25587684207600425,
+          "underproduced_mass": 0.24548381739347966,
+          "shifted_kl": 0.27418509689454806,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.289119307777093,
+          "population_kl": 0.2975760548439318,
+          "underproduced_mass": 0.23972953116289647,
+          "shifted_kl": 0.30076966147983886,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2948233699023739,
+          "population_kl": 0.3303209878166874,
+          "underproduced_mass": 0.24308863260707642,
+          "shifted_kl": 0.3239084810263193,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29169165546244646,
+          "population_kl": 0.3596556762317262,
+          "underproduced_mass": 0.24058439909745657,
+          "shifted_kl": 0.3454493975401692,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29399535417181283,
+          "population_kl": 0.3807176576283377,
+          "underproduced_mass": 0.24214301092783228,
+          "shifted_kl": 0.3642398999207254,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2965927404049436,
+          "population_kl": 0.39359414405502285,
+          "underproduced_mass": 0.2496308340998284,
+          "shifted_kl": 0.3675504025180391,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3314857462701225,
+          "population_kl": 0.6387848057133817,
+          "underproduced_mass": 0.26201369796568036,
+          "shifted_kl": 0.733580604596831,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3049917072099684,
+          "population_kl": 0.601023132160919,
+          "underproduced_mass": 0.2457291783703191,
+          "shifted_kl": 0.6427267470981138,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29888888968854715,
+          "population_kl": 0.5728988782920925,
+          "underproduced_mass": 0.2423010239346862,
+          "shifted_kl": 0.5927854480403648,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3044604520491156,
+          "population_kl": 0.5631144842396245,
+          "underproduced_mass": 0.24669186252758005,
+          "shifted_kl": 0.5667998232066218,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.299514918175064,
+          "population_kl": 0.5508504066130027,
+          "underproduced_mass": 0.2442509863282333,
+          "shifted_kl": 0.5494403910893003,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.30006934166540844,
+          "population_kl": 0.542812113707898,
+          "underproduced_mass": 0.24681927302113824,
+          "shifted_kl": 0.5334963704315627,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29534093701660263,
+          "population_kl": 0.5296096993111677,
+          "underproduced_mass": 0.24666246846582074,
+          "shifted_kl": 0.5113163720023309,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.30044342060258084,
+          "population_kl": 0.5331452668273879,
+          "underproduced_mass": 0.24311626412537948,
+          "shifted_kl": 0.5060714345013009,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2967826678703843,
+          "population_kl": 0.5242693550559477,
+          "underproduced_mass": 0.24295624251216394,
+          "shifted_kl": 0.4973584893299859,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29152821150544833,
+          "population_kl": 0.5262669573396743,
+          "underproduced_mass": 0.2392381727495275,
+          "shifted_kl": 0.4903996837841926,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2889407723654777,
+          "population_kl": 0.5246003955819962,
+          "underproduced_mass": 0.23593092685143888,
+          "shifted_kl": 0.4817051677115692,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29242407455225083,
+          "population_kl": 0.5205368984713318,
+          "underproduced_mass": 0.23838690492552062,
+          "shifted_kl": 0.478218564821704,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3006929819399498,
+          "population_kl": 0.517335156798021,
+          "underproduced_mass": 0.2462688779164635,
+          "shifted_kl": 0.47384196132819584,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29658155851836626,
+          "population_kl": 0.5098141984115246,
+          "underproduced_mass": 0.24696377916625556,
+          "shifted_kl": 0.46154257380291713,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29250630847754144,
+          "population_kl": 0.5074991376814162,
+          "underproduced_mass": 0.2402971636302637,
+          "shifted_kl": 0.4575710386373268,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.29623110338805414,
+          "population_kl": 0.5143161815883087,
+          "underproduced_mass": 0.24504982783492535,
+          "shifted_kl": 0.46025913948709996,
+          "rare_real_count": 38.0
+        }
+      ],
+      "tail_real_only": [
+        {
+          "rare_kl": 0.3210720172036813,
+          "population_kl": 0.4485344763776525,
+          "underproduced_mass": 0.2728969103113124,
+          "shifted_kl": 0.4105469885276636,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3127707626249483,
+          "population_kl": 0.44214844240755324,
+          "underproduced_mass": 0.26697550193691116,
+          "shifted_kl": 0.4040710730830506,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3169901445994626,
+          "population_kl": 0.43999554693108234,
+          "underproduced_mass": 0.2683305240413476,
+          "shifted_kl": 0.4013384635004424,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3099950031413574,
+          "population_kl": 0.44320741101161193,
+          "underproduced_mass": 0.263395595665418,
+          "shifted_kl": 0.3998971585283089,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31578334968835886,
+          "population_kl": 0.44279986356391243,
+          "underproduced_mass": 0.2676147000488537,
+          "shifted_kl": 0.4013306113673825,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.312609253258799,
+          "population_kl": 0.4504370653776071,
+          "underproduced_mass": 0.26883783191524735,
+          "shifted_kl": 0.4057094801203282,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3163659357065102,
+          "population_kl": 0.4370691463979424,
+          "underproduced_mass": 0.27133419619290783,
+          "shifted_kl": 0.40028813094580734,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.323022271048763,
+          "population_kl": 0.4447220754848082,
+          "underproduced_mass": 0.27602907077934336,
+          "shifted_kl": 0.4041709259352224,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3244436929952502,
+          "population_kl": 0.44299474194648625,
+          "underproduced_mass": 0.2783478728943413,
+          "shifted_kl": 0.4083712041769599,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3131665692933909,
+          "population_kl": 0.4386729910784018,
+          "underproduced_mass": 0.2642422626379816,
+          "shifted_kl": 0.40197667819458066,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31944902416460524,
+          "population_kl": 0.4439106093649082,
+          "underproduced_mass": 0.2692012822888739,
+          "shifted_kl": 0.410057574924899,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3293452507524954,
+          "population_kl": 0.44521326584760673,
+          "underproduced_mass": 0.2804415997912462,
+          "shifted_kl": 0.4088697606358785,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3248638926384135,
+          "population_kl": 0.44539610256795215,
+          "underproduced_mass": 0.27529184962284575,
+          "shifted_kl": 0.4112771262274754,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3173246703583045,
+          "population_kl": 0.4431151047432171,
+          "underproduced_mass": 0.2704292689044008,
+          "shifted_kl": 0.4004778553509927,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31945786961730177,
+          "population_kl": 0.4406415087049464,
+          "underproduced_mass": 0.27274185021500147,
+          "shifted_kl": 0.40127137731991014,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31997079178600574,
+          "population_kl": 0.43969254502442745,
+          "underproduced_mass": 0.276739625220567,
+          "shifted_kl": 0.40486201260319726,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.31227633426474566,
+          "population_kl": 0.44896673758975775,
+          "underproduced_mass": 0.2687086858766391,
+          "shifted_kl": 0.413029373095025,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32131401205955024,
+          "population_kl": 0.4428713536546578,
+          "underproduced_mass": 0.27146366643639663,
+          "shifted_kl": 0.40805090315580894,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.30684021823389585,
+          "population_kl": 0.4409945137403772,
+          "underproduced_mass": 0.26291105228623934,
+          "shifted_kl": 0.3978248422183244,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3155282873853932,
+          "population_kl": 0.43731745544742734,
+          "underproduced_mass": 0.2676673637106805,
+          "shifted_kl": 0.4063094815765857,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.32743583602259146,
+          "population_kl": 0.44719674601126225,
+          "underproduced_mass": 0.28115924426775846,
+          "shifted_kl": 0.4118051694937875,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3183597245143297,
+          "population_kl": 0.44546426391123184,
+          "underproduced_mass": 0.2709389138248248,
+          "shifted_kl": 0.40399983483639856,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3155263270724089,
+          "population_kl": 0.4559184436215282,
+          "underproduced_mass": 0.2700781530123583,
+          "shifted_kl": 0.4137657648626731,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.3278766756269711,
+          "population_kl": 0.4444843927177108,
+          "underproduced_mass": 0.27999825862303973,
+          "shifted_kl": 0.40648991758790565,
+          "rare_real_count": 38.0
+        }
+      ],
+      "tail_rolling_real": [
+        {
+          "rare_kl": 0.3210720172036813,
+          "population_kl": 0.4485344763776525,
+          "underproduced_mass": 0.2728969103113124,
+          "shifted_kl": 0.4105469885276636,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.21571047967941356,
+          "population_kl": 0.3630072328865598,
+          "underproduced_mass": 0.17915389618939362,
+          "shifted_kl": 0.31903677501279676,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1588064948498073,
+          "population_kl": 0.3061715591239495,
+          "underproduced_mass": 0.13204018846905488,
+          "shifted_kl": 0.26422070883443266,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12469075608942715,
+          "population_kl": 0.26537054216028466,
+          "underproduced_mass": 0.10187502499535062,
+          "shifted_kl": 0.22499083438571615,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1240662627179621,
+          "population_kl": 0.264044608891694,
+          "underproduced_mass": 0.10302885821572078,
+          "shifted_kl": 0.21913275376331662,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12725276966469948,
+          "population_kl": 0.2660636563100926,
+          "underproduced_mass": 0.10545301060804889,
+          "shifted_kl": 0.2201622300211451,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12746075842428944,
+          "population_kl": 0.2626284927868394,
+          "underproduced_mass": 0.10267515936400223,
+          "shifted_kl": 0.21963372558881888,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12714625466132423,
+          "population_kl": 0.25953116687284333,
+          "underproduced_mass": 0.10162891821639662,
+          "shifted_kl": 0.2183265351198882,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.331822194255731,
+          "population_kl": 0.45653682041927773,
+          "underproduced_mass": 0.2376954475542832,
+          "shifted_kl": 0.6305624718888649,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.2255429606947524,
+          "population_kl": 0.35835889528969483,
+          "underproduced_mass": 0.17586345325393768,
+          "shifted_kl": 0.4247663784655021,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.16344474112054858,
+          "population_kl": 0.29997876365813614,
+          "underproduced_mass": 0.11788029485866298,
+          "shifted_kl": 0.3029515971161883,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12707157474444972,
+          "population_kl": 0.2616661668090814,
+          "underproduced_mass": 0.10289079407723861,
+          "shifted_kl": 0.22165024736257244,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1298042131801601,
+          "population_kl": 0.2633587316012168,
+          "underproduced_mass": 0.10582169981729242,
+          "shifted_kl": 0.22640367507541317,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12896012338592877,
+          "population_kl": 0.2678067903488268,
+          "underproduced_mass": 0.10360613308821917,
+          "shifted_kl": 0.22639302472382436,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12951280470477622,
+          "population_kl": 0.2636175574584635,
+          "underproduced_mass": 0.10575421310791182,
+          "shifted_kl": 0.2206307736460307,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12576834991297808,
+          "population_kl": 0.2644281748469975,
+          "underproduced_mass": 0.1023563465312425,
+          "shifted_kl": 0.22030440338907048,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12520857545817168,
+          "population_kl": 0.2635843034625649,
+          "underproduced_mass": 0.10445080455736848,
+          "shifted_kl": 0.22002030866779004,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12552784336035513,
+          "population_kl": 0.26286556839821135,
+          "underproduced_mass": 0.10252955597842849,
+          "shifted_kl": 0.22245548035688212,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12732124140698617,
+          "population_kl": 0.2604361329060535,
+          "underproduced_mass": 0.10272698014875227,
+          "shifted_kl": 0.2205465099990749,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12607739232284165,
+          "population_kl": 0.25714779210117383,
+          "underproduced_mass": 0.10254723571058658,
+          "shifted_kl": 0.21715459284289856,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12880873009188726,
+          "population_kl": 0.2611423030644027,
+          "underproduced_mass": 0.10660964592487883,
+          "shifted_kl": 0.22128281132508992,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12573735382787118,
+          "population_kl": 0.26169557439357005,
+          "underproduced_mass": 0.10243335936761461,
+          "shifted_kl": 0.2179298260908894,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.12719070549446065,
+          "population_kl": 0.26838015222553757,
+          "underproduced_mass": 0.10117901402283996,
+          "shifted_kl": 0.2273851538088067,
+          "rare_real_count": 38.0
+        },
+        {
+          "rare_kl": 0.1295531242733524,
+          "population_kl": 0.271377175828283,
+          "underproduced_mass": 0.10957355121029465,
+          "shifted_kl": 0.23113558854068483,
+          "rare_real_count": 38.0
+        }
+      ],
+      "balanced_cumulative_real": [
+        {
+          "rare_kl": 0.17600161650623883,
+          "population_kl": 0.027613229827344096,
+          "underproduced_mass": 0.14680180835855294,
+          "shifted_kl": 0.08177963575369676,
+          "rare_real_count": 21.28515625
+        },
+        {
+          "rare_kl": 0.1509879918035361,
+          "population_kl": 0.026338719118111645,
+          "underproduced_mass": 0.12458817221001778,
+          "shifted_kl": 0.07108279654321373,
+          "rare_real_count": 21.3671875
+        },
+        {
+          "rare_kl": 0.13041008848780522,
+          "population_kl": 0.025159205512290082,
+          "underproduced_mass": 0.10544156676820281,
+          "shifted_kl": 0.06276018001751917,
+          "rare_real_count": 21.26171875
+        },
+        {
+          "rare_kl": 0.115719223583906,
+          "population_kl": 0.024235386302903582,
+          "underproduced_mass": 0.09389489554907976,
+          "shifted_kl": 0.056266778366308876,
+          "rare_real_count": 21.34765625
+        },
+        {
+          "rare_kl": 0.10501738417005206,
+          "population_kl": 0.02348196861658131,
+          "underproduced_mass": 0.08424065650905536,
+          "shifted_kl": 0.05212404285397319,
+          "rare_real_count": 21.390625
+        },
+        {
+          "rare_kl": 0.09496714367776896,
+          "population_kl": 0.02270319501196538,
+          "underproduced_mass": 0.07560498387142592,
+          "shifted_kl": 0.04807152236445715,
+          "rare_real_count": 21.3359375
+        },
+        {
+          "rare_kl": 0.0864382613521715,
+          "population_kl": 0.02199946313017257,
+          "underproduced_mass": 0.06829302904423362,
+          "shifted_kl": 0.04471426092603633,
+          "rare_real_count": 21.30078125
+        },
+        {
+          "rare_kl": 0.08025710048679568,
+          "population_kl": 0.021371632799299305,
+          "underproduced_mass": 0.061867644624316515,
+          "shifted_kl": 0.04201613453310831,
+          "rare_real_count": 21.37109375
+        },
+        {
+          "rare_kl": 0.4433888434357495,
+          "population_kl": 0.5214315861812773,
+          "underproduced_mass": 0.20384727155196444,
+          "shifted_kl": 0.9897863876418882,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.34358850411747316,
+          "population_kl": 0.44518861953493827,
+          "underproduced_mass": 0.1999965228194018,
+          "shifted_kl": 0.8189736955273599,
+          "rare_real_count": 21.30078125
+        },
+        {
+          "rare_kl": 0.2903254722423301,
+          "population_kl": 0.3984571534588177,
+          "underproduced_mass": 0.19364618233034012,
+          "shifted_kl": 0.7190391685907526,
+          "rare_real_count": 21.3515625
+        },
+        {
+          "rare_kl": 0.2568404171259471,
+          "population_kl": 0.3655770414447506,
+          "underproduced_mass": 0.18888060727414924,
+          "shifted_kl": 0.6518785484747629,
+          "rare_real_count": 21.44140625
+        },
+        {
+          "rare_kl": 0.23083161396569293,
+          "population_kl": 0.3384477602713245,
+          "underproduced_mass": 0.1814011508978051,
+          "shifted_kl": 0.5977661673919384,
+          "rare_real_count": 21.25
+        },
+        {
+          "rare_kl": 0.20918088780240524,
+          "population_kl": 0.31677175351230863,
+          "underproduced_mass": 0.17391165612930862,
+          "shifted_kl": 0.5544482541799001,
+          "rare_real_count": 21.39453125
+        },
+        {
+          "rare_kl": 0.19224127083819376,
+          "population_kl": 0.29866699754671505,
+          "underproduced_mass": 0.16414966874669645,
+          "shifted_kl": 0.5188429960143554,
+          "rare_real_count": 21.29296875
+        },
+        {
+          "rare_kl": 0.17765085006380055,
+          "population_kl": 0.28347541861112835,
+          "underproduced_mass": 0.15376236231955615,
+          "shifted_kl": 0.4888381882056711,
+          "rare_real_count": 21.33984375
+        },
+        {
+          "rare_kl": 0.1649254872512305,
+          "population_kl": 0.269944351643539,
+          "underproduced_mass": 0.14187699207953713,
+          "shifted_kl": 0.46254563734754683,
+          "rare_real_count": 21.3125
+        },
+        {
+          "rare_kl": 0.1540187942927412,
+          "population_kl": 0.2577571089011249,
+          "underproduced_mass": 0.12849118157107509,
+          "shifted_kl": 0.4391238091888733,
+          "rare_real_count": 21.3203125
+        },
+        {
+          "rare_kl": 0.14454815647988012,
+          "population_kl": 0.24704042810743054,
+          "underproduced_mass": 0.1103564332350468,
+          "shifted_kl": 0.4185954058165812,
+          "rare_real_count": 21.43359375
+        },
+        {
+          "rare_kl": 0.13662506797386045,
+          "population_kl": 0.2373896428286671,
+          "underproduced_mass": 0.09705653759409079,
+          "shifted_kl": 0.4004355114959044,
+          "rare_real_count": 21.3515625
+        },
+        {
+          "rare_kl": 0.12927216109095485,
+          "population_kl": 0.22871468491728697,
+          "underproduced_mass": 0.08082330920131381,
+          "shifted_kl": 0.38403706636054036,
+          "rare_real_count": 21.39453125
+        },
+        {
+          "rare_kl": 0.12279793258165916,
+          "population_kl": 0.22072621391852493,
+          "underproduced_mass": 0.06720185206059386,
+          "shifted_kl": 0.3692029477972173,
+          "rare_real_count": 21.30859375
+        },
+        {
+          "rare_kl": 0.11690268501816534,
+          "population_kl": 0.21319913923964592,
+          "underproduced_mass": 0.05997410457433646,
+          "shifted_kl": 0.35525422094120307,
+          "rare_real_count": 21.29296875
+        },
+        {
+          "rare_kl": 0.111787650261457,
+          "population_kl": 0.20620129544326884,
+          "underproduced_mass": 0.053099758591181954,
+          "shifted_kl": 0.342545268492129,
+          "rare_real_count": 21.328125
+        }
+      ]
+    }
+  }
+}

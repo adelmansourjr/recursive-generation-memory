@@ -1,0 +1,297 @@
+{
+  "competitor": "diffuse_reset",
+  "confirmation_seeds": [
+    538891,
+    538921,
+    538943,
+    538957,
+    538979
+  ],
+  "development_scores": {
+    "archive_blend": [
+      {
+        "config": {
+          "archive_weight": 0.1,
+          "window": 4
+        },
+        "score": 0.21007965342290244
+      },
+      {
+        "config": {
+          "archive_weight": 0.3,
+          "window": 4
+        },
+        "score": 0.1842679783099596
+      },
+      {
+        "config": {
+          "archive_weight": 0.55,
+          "window": 4
+        },
+        "score": 0.19635869278961418
+      },
+      {
+        "config": {
+          "archive_weight": 0.1,
+          "window": 8
+        },
+        "score": 0.21436180737359148
+      },
+      {
+        "config": {
+          "archive_weight": 0.3,
+          "window": 8
+        },
+        "score": 0.19672494400776733
+      },
+      {
+        "config": {
+          "archive_weight": 0.55,
+          "window": 8
+        },
+        "score": 0.21324990604369573
+      },
+      {
+        "config": {
+          "archive_weight": 0.1,
+          "window": 16
+        },
+        "score": 0.22621973523916736
+      },
+      {
+        "config": {
+          "archive_weight": 0.3,
+          "window": 16
+        },
+        "score": 0.21468491026265646
+      },
+      {
+        "config": {
+          "archive_weight": 0.55,
+          "window": 16
+        },
+        "score": 0.2335876740949449
+      }
+    ],
+    "archive_reset": [
+      {
+        "config": {
+          "hazard": 0.02,
+          "recall": 0.2
+        },
+        "score": 0.16569186810671457
+      },
+      {
+        "config": {
+          "hazard": 0.02,
+          "recall": 0.5
+        },
+        "score": 0.16551935979374655
+      },
+      {
+        "config": {
+          "hazard": 0.02,
+          "recall": 0.8
+        },
+        "score": 0.16729518382799874
+      },
+      {
+        "config": {
+          "hazard": 0.06,
+          "recall": 0.2
+        },
+        "score": 0.1623272698430261
+      },
+      {
+        "config": {
+          "hazard": 0.06,
+          "recall": 0.5
+        },
+        "score": 0.1619464781984838
+      },
+      {
+        "config": {
+          "hazard": 0.06,
+          "recall": 0.8
+        },
+        "score": 0.16425890889620337
+      },
+      {
+        "config": {
+          "hazard": 0.14,
+          "recall": 0.2
+        },
+        "score": 0.16425908938561612
+      },
+      {
+        "config": {
+          "hazard": 0.14,
+          "recall": 0.5
+        },
+        "score": 0.1637669807459389
+      },
+      {
+        "config": {
+          "hazard": 0.14,
+          "recall": 0.8
+        },
+        "score": 0.16485225917385413
+      }
+    ],
+    "cumulative": [
+      {
+        "config": {},
+        "score": 0.23175410532366722
+      }
+    ],
+    "diffuse_reset": [
+      {
+        "config": {
+          "hazard": 0.02,
+          "recall": 0.0
+        },
+        "score": 0.17223577019191494
+      },
+      {
+        "config": {
+          "hazard": 0.06,
+          "recall": 0.0
+        },
+        "score": 0.17077275368173644
+      },
+      {
+        "config": {
+          "hazard": 0.14,
+          "recall": 0.0
+        },
+        "score": 0.17270322129346294
+      }
+    ],
+    "discounted": [
+      {
+        "config": {
+          "discount": 0.5
+        },
+        "score": 0.20727564708539434
+      },
+      {
+        "config": {
+          "discount": 0.75
+        },
+        "score": 0.17843014425715714
+      },
+      {
+        "config": {
+          "discount": 0.88
+        },
+        "score": 0.18311120770927378
+      },
+      {
+        "config": {
+          "discount": 0.94
+        },
+        "score": 0.19903817071117477
+      },
+      {
+        "config": {
+          "discount": 0.98
+        },
+        "score": 0.21927895721281704
+      }
+    ],
+    "latest": [
+      {
+        "config": {},
+        "score": 0.29798756822462835
+      }
+    ],
+    "rolling": [
+      {
+        "config": {
+          "window": 2
+        },
+        "score": 0.2691884416484679
+      },
+      {
+        "config": {
+          "window": 4
+        },
+        "score": 0.24355738874346194
+      },
+      {
+        "config": {
+          "window": 8
+        },
+        "score": 0.24045235081375696
+      },
+      {
+        "config": {
+          "window": 16
+        },
+        "score": 0.24514335961663294
+      }
+    ]
+  },
+  "development_seeds": [
+    280973,
+    280987,
+    281023,
+    281047,
+    281063
+  ],
+  "development_worlds_per_regime": 64,
+  "parameters": {
+    "generated": 384,
+    "rounds": 36,
+    "trust": 24,
+    "verified": 64
+  },
+  "selected": {
+    "archive_blend": {
+      "config": {
+        "archive_weight": 0.3,
+        "window": 4
+      },
+      "score": 0.1842679783099596
+    },
+    "archive_reset": {
+      "config": {
+        "hazard": 0.06,
+        "recall": 0.5
+      },
+      "score": 0.1619464781984838
+    },
+    "cumulative": {
+      "config": {},
+      "score": 0.23175410532366722
+    },
+    "diffuse_reset": {
+      "config": {
+        "hazard": 0.06,
+        "recall": 0.0
+      },
+      "score": 0.17077275368173644
+    },
+    "discounted": {
+      "config": {
+        "discount": 0.75
+      },
+      "score": 0.17843014425715714
+    },
+    "latest": {
+      "config": {},
+      "score": 0.29798756822462835
+    },
+    "rolling": {
+      "config": {
+        "window": 8
+      },
+      "score": 0.24045235081375696
+    }
+  },
+  "source_sha256": {
+    "Protocol.md": "50e70d3c816302ef22b7fc2dcbea01b6922c4fa106ae8c04b20f19b6858b2c57",
+    "run.py": "e233b1350c5a15828b15105b36f1cf45074f4ae505bb5762df666d48e11df669"
+  },
+  "test_worlds_per_regime": 192
+}
